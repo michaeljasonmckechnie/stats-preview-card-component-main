@@ -111,7 +111,6 @@
     main {
         align-items: flex-start;
         background: hsla(244, 38%, 16%, 1);
-        border: 1px solid green;
         border-radius: 5px;
         display: flex;
         flex-direction: row;
