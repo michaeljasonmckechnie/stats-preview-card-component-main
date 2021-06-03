@@ -20,7 +20,6 @@
         background: hsla(244, 38%, 16%, 1);
         border-radius: 5px;
         overflow: hidden;
-        padding-bottom: 32px;
     }
 
     .image-container {
@@ -77,10 +76,13 @@
         text-transform: uppercase;
     }
 
+    .stat-body:last-of-type {
+        margin-bottom: 35px;
+    }
+
     .attribution-container {
-        bottom: 0px;
-        position: sticky;
-        position: -webkit-sticky;
+        padding: 0px;
+        margin: 0px;
     }
 
     .attribution {
@@ -215,11 +217,8 @@
     }
 
     .attribution-container {
-        bottom: 0px;
         margin: auto auto;
-        position: sticky;
-        position: -webkit-sticky;
-        width: 1110px;
+        width: fit-content;
     }
 
     .attribution {
